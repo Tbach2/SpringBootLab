@@ -13,12 +13,12 @@ public class HomeController {
         return "index";
     }
 
-    @GetMapping("/cart")
+    @GetMapping("/view-cart")
     public String showCartPage() {
         return "orders/cart";
     }
 
-    @RequestMapping("/product-detail")
+    @RequestMapping("/product/detail")
     public String showProductDetailPage() {
         return "catalog/product-detail";
     }
